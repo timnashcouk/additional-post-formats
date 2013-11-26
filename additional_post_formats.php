@@ -4,7 +4,7 @@ Plugin Name: Additional Post Formats
 Plugin URI: http://www.timnash.co.uk/additional-post-formats/
 Git URI: https://github.com/timnashcouk/additional-post-formats
 Description: Adding additional Post Formats
-Version: 1.0
+Version: 1.0.1
 Author: Tim Nash
 Author URI: http://www.timnash.co.uk
 License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -26,6 +26,11 @@ Provides: additional-post-formats
     along with this program; if not, write to the Free Software
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
+
+//Don't call this file directly!
+if ( ! defined( 'WPINC' ) ) {
+        die;
+}
 
 /**
  * Hijacks the $_wp_theme_features storing add_theme_support and adds post format data to additional formats and vice versa
