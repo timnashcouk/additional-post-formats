@@ -55,3 +55,6 @@ I think post formats are a great idea for when you need to display the same cont
 ###Why is this not on Extend
 Did I mention this is a hack?
 
+##Changelog
+- 1.0.1 Added blank index.php and made sure plugin can't be called directly.
+- 1.0.0 Initial Version
