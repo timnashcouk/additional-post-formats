@@ -5,7 +5,7 @@ Tags: Post Formats, Posts
 
 Requires at least: 3.6
 
-Tested up to: 3.7.1
+Tested up to: 4.2.2
 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,5 +56,6 @@ I think post formats are a great idea for when you need to display the same cont
 Did I mention this is a hack?
 
 ##Changelog
+- 1.0.2 Fixed a couple of notices
 - 1.0.1 Added blank index.php and made sure plugin can't be called directly.
 - 1.0.0 Initial Version
